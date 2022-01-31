@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "DiscordJS v13 template with Slash Commands.",
   "main": "src/index.js",
-  "author": "",
+  "author": "VenixDeveloper | hello@venix.me",
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "@discordjs/rest": "^0.3.0",
     "bufferutil": "^4.0.5",
-    "discord.js": "^13.3.1",
+    "cat-loggr": "^1.2.2",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.6.0",
     "glob": "^7.2.0",
     "utf-8-validate": "^5.0.7"
   }

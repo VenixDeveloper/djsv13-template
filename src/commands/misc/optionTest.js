@@ -4,7 +4,7 @@ const { MainClient } = require('../../structs/MainClient');
 
 module.exports = {
     data: new SlashCommandBuilder()
-      .setName('userinfo')
+      .setName('optiontest')
       .setDescription('Just an test command for showing off addUserOption and addStringOption.')
       .addUserOption(option => option.setName('target').setDescription('Select a user'))
       .addStringOption(option => option.setName('string').setDescription('Enter a string')),

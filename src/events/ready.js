@@ -8,6 +8,6 @@ module.exports = class extends Event {
     }
 
     run() {
-		console.log(`Successfully logged in as ${this.client.user.tag}`)
+		this.client.logger.info(`Successfully started as ${this.client.user.tag}`);
 	}
 }
